@@ -15,6 +15,7 @@
   padding: 20px 25px;
   font-weight: 600;
 font-size: 20px;
+margin-top: 32px;
 }
 
 /* header section  */
@@ -58,10 +59,10 @@ nav li {
   font-weight: 700;
   font-size: 64px;
 }
-.banner-items p,
-button {
+.banner-items p{
   margin-top: 32px;
 }
+
 .banner-img{
     width: 1440px;
 height: 700px;
@@ -142,4 +143,92 @@ padding: 30px 42px 30px 30px;
 
 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 border-radius: 8px;
+}
+
+.experience{
+  background-color: #FF900E;
+  padding: 25px;
+  border: 0 ;
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+color:#ffffff;
+}
+.experience h2{
+  font-size: 35px;
+}
+
+.features-image{
+  position: relative;
+}
+.f-image-1 {
+  position: relative;
+}
+.experience{
+  position: absolute;
+  top: 878px;
+  left: 10px;
+}
+
+/* some fact style  */
+.facts-head{
+ margin-left: 240px;
+}
+.facts-head h2{
+  font-weight: 700;
+  font-size: 45px;
+}
+.facts-head p{
+  color: #727272; 
+  width: 542px;
+  height: 52px;
+  padding-right: 1000px;
+  margin-top: 10px;
+}
+.fact-items{
+  display: flex;
+  justify-content: space-between;
+  margin: 120px 300px 200px;
+
+}
+.fact-item{
+  border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 35px 26px 50px;
+text-align: center;
+}
+.fact-item img{
+  width: 45.22px;
+height: 45.22px;
+}
+
+/* Our Sponspors */
+.Our-Sponspor{
+  text-align: center;
+  margin: 0 100px 120px;
+}
+.Our-Sponspor p{
+  margin-top: 20px;
+  font-size: 16px;
+  color: #727272;
+}
+.Our-Sponspor h1{
+  font-size: 45px;
+
+}
+.Our-Sponspors{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* Footer */
+
+.footer{
+  background-color: #FFF4E7;
+  margin: 0 180px 150px;
+  color: #727272;
+  padding: 38px 400px;
+  text-align: center;
+  border-radius: 10px;
 }
