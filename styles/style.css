@@ -232,3 +232,25 @@ height: 45.22px;
   text-align: center;
   border-radius: 10px;
 }
+
+
+form {
+  display: flex;
+  justify-content: center;
+}
+form input[type=email]{
+  border: 0;
+  border-bottom: .5px solid #7272727e;
+  width: 300px;
+}
+form input[type=submit]{
+  margin-left: 10px;
+  border: 0;
+  border-radius: 35px;
+  padding: 10px 20px;
+  background-color: #FF900E;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+
+}
