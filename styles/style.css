@@ -17,6 +17,10 @@
   font-size: 20px;
   margin-top: 32px;
 }
+.primary-button:hover{
+  background-color: #ff7300;
+
+}
 
 /* header section  */
 
@@ -203,6 +207,17 @@ nav li {
   padding: 35px 26px 50px;
   text-align: center;
 }
+.fact-item:hover{
+  background-color: #ff8f0e8c;
+  color: white;
+}
+.fact-item:hover #fact-item{
+  transform: rotate(360deg);
+
+}
+#fact-item{
+  transition: transform 330ms ease-in-out;
+}
 .fact-item img {
   width: 45.22px;
   height: 45.22px;
@@ -262,6 +277,11 @@ form input[type="submit"] {
   color: #ffffff;
   font-weight: bold;
 }
+form input[type="submit"]:hover{
+  background-color: #727272;
+  
+
+}
 
 @media screen and (max-width: 576px) {
 
@@ -298,7 +318,7 @@ form input[type="submit"] {
 
   }
   .team-images img{
-    width: 80%;
+    width: 70%;
   }
 .feature-texts{
   width: min-content;
@@ -358,7 +378,7 @@ form input[type="submit"] {
   }
   /* PRODUCT FEATURES  */
   .features{
-    width: 80%;
+    width: 70%;
   }
   .product-features{
     grid-template-columns: 1fr;
@@ -371,9 +391,9 @@ form input[type="submit"] {
 .Our-Sponspor{
   margin: 0;
 }
-.Our-Sponspor-headed{
+/* .Our-Sponspor-headed{
   width: 80%;
-}
+} */
 .Our-Sponspors{
   flex-direction: column;
     
