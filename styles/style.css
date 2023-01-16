@@ -130,6 +130,11 @@ nav li {
   color: #131313;
   margin-bottom: 24px;
 }
+#facture-after::before{
+  content: ".";
+  background-color: #ff900e;
+  color: #ff900e;
+}
 .features p {
   font-size: 16px;
   color: #727272;
