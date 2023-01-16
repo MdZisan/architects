@@ -14,8 +14,8 @@
   border-radius: 8px;
   padding: 20px 25px;
   font-weight: 600;
-font-size: 20px;
-margin-top: 32px;
+  font-size: 20px;
+  margin-top: 32px;
 }
 
 /* header section  */
@@ -26,9 +26,9 @@ header {
 }
 
 /* nav bar styles */
-.nav-title{
-    font-weight: 700;
-    font-size: 30px;
+.nav-title {
+  font-weight: 700;
+  font-size: 30px;
 }
 
 nav {
@@ -59,62 +59,68 @@ nav li {
   font-weight: 700;
   font-size: 64px;
 }
-.banner-items p{
+.banner-items p {
   margin-top: 32px;
 }
 
-.banner-img{
-    width: 1440px;
-height: 700px;
-    margin-top: 50px;
-    padding-bottom: 40px;
+.banner-img {
+  width: 100%;
+  /* height: 700px; */
+  margin-top: 50px;
+  padding-bottom: 40px;
+}
+.banner-image {
+  width: 100%;
 }
 
 /* END Header  */
 
-
 /* Features  */
-.our-features{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 100px;
+.our-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
   align-items: center;
-    padding: 100px 200px;
+  padding: 100px 200px;
 }
-.team-images{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 15px;
+.team-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
 }
-.team-images img{
-  width: 342px;
-height: 342px;
+.team-images img {
+  width: 100%;
+  height: 222px;
 }
-.feature-texts{
+.feature-texts {
   width: 400px;
   color: #727272;
 }
-.our-features h2{
+.our-features h2 {
   margin-bottom: 24px;
-  
 }
 
 /* product features  */
-.product-features{
-  display: flex;
-  padding: 130px 240px;
+.Product-Features-main{
+  padding: 100px 100px;
+}
+.product-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding: 130px 240px; */
+  width: 100%;
   gap: 54px;
 }
-.features-image{
-  width: 708px;
-height: 982px;
+.features-image {
+  width: 100%;
+  height: 982px;
 }
-.features-image img{
-  padding: 0 0 77px  92px;
-  width: 708px;
-height: 982px;
+.features-image img {
+  /* padding: 0 0 77px  92px; */
+  width: 100%;
+  height: 982px;
 }
-.features h1{
+.features h1 {
   font-size: 45px;
   color: #131313;
   margin-bottom: 24px;
@@ -123,100 +129,99 @@ height: 982px;
   font-size: 16px;
   color: #727272;
 }
-.feature-title{
+.feature-title {
   font-size: 20px;
   color: #131313;
 }
-.feature-list{
+.feature-list {
   margin-top: 30px;
   width: 400px;
-
 }
 .feature-list > div {
   margin: 20px 0;
 }
-.feature-list h3{
+.feature-list h3 {
   margin-bottom: 20px;
 }
-.feature-details{
-padding: 30px 42px 30px 30px;
+.feature-details {
+  padding: 30px 42px 30px 30px;
 
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-border-radius: 8px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
 }
 
-.experience{
-  background-color: #FF900E;
+.experience {
+  background-color: #ff900e;
   padding: 25px;
-  border: 0 ;
+  border: 0;
   border-radius: 10px;
   width: 300px;
   height: 150px;
-color:#ffffff;
+  color: #ffffff;
 }
-.experience h2{
+.experience h2 {
   font-size: 35px;
 }
 
-.features-image{
+.features-image {
   position: relative;
+  /* width: 100%; */
 }
 .f-image-1 {
-  position: relative;
+  /* position: relative; */
+  width: 100%;
 }
-.experience{
+.experience {
   position: absolute;
   top: 878px;
-  left: 10px;
+  left: -38px;
 }
 
 /* some fact style  */
-.facts-head{
- margin-left: 240px;
+.facts-head {
+  margin-left: 240px;
 }
-.facts-head h2{
+.facts-head h2 {
   font-weight: 700;
   font-size: 45px;
 }
-.facts-head p{
-  color: #727272; 
+.facts-head p {
+  color: #727272;
   width: 542px;
   height: 52px;
-  padding-right: 1000px;
+  /* padding-right: 1000px; */
   margin-top: 10px;
 }
-.fact-items{
+.fact-items {
   display: flex;
   justify-content: space-between;
   margin: 120px 300px 200px;
-
 }
-.fact-item{
-  border: 1px solid #FF900E;
-border-radius: 8px;
-padding: 35px 26px 50px;
-text-align: center;
+.fact-item {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 35px 26px 50px;
+  text-align: center;
 }
-.fact-item img{
+.fact-item img {
   width: 45.22px;
-height: 45.22px;
+  height: 45.22px;
 }
 
 /* Our Sponspors */
-.Our-Sponspor{
+.Our-Sponspor {
   text-align: center;
   margin: 0 100px 120px;
 }
-.Our-Sponspor p{
+.Our-Sponspor p {
   margin-top: 20px;
   font-size: 16px;
   color: #727272;
 }
-.Our-Sponspor h1{
+.Our-Sponspor h1 {
   font-size: 45px;
-
 }
-.Our-Sponspors{
+.Our-Sponspors {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -224,13 +229,17 @@ height: 45.22px;
 
 /* Footer */
 
-.footer{
-  background-color: #FFF4E7;
+.footer {
   margin: 0 180px 150px;
+  background-color: #fff4e7;
   color: #727272;
-  padding: 38px 400px;
   text-align: center;
   border-radius: 10px;
+}
+
+.footer-div{  
+  padding: 38px 20px;
+
 }
 
 
@@ -238,19 +247,97 @@ form {
   display: flex;
   justify-content: center;
 }
-form input[type=email]{
+form input[type="email"] {
   border: 0;
-  border-bottom: .5px solid #7272727e;
+  border-bottom: 0.5px solid #7272727e;
   width: 300px;
 }
-form input[type=submit]{
+form input[type="submit"] {
   margin-left: 10px;
   border: 0;
   border-radius: 35px;
   padding: 10px 20px;
-  background-color: #FF900E;
+  background-color: #ff900e;
   font-size: 30px;
   color: #ffffff;
   font-weight: bold;
+}
 
+@media screen and (max-width: 576px) {
+
+  /* header */
+  header{
+    padding: 0;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  nav li {
+    margin: 0;
+  }
+  .banner{
+    align-items: start;
+  }
+  .banner-items{
+    height: auto;
+    width: 50%;
+    margin: 0;
+    text-align: start;
+    padding-left: 10px;
+  }
+  .banner-head{
+    font-size: 35px;
+
+  }
+
+
+  /* our feautres  */
+  .our-features {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 100px 20px;
+  }
+  .team-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .product-features {
+    flex-direction: column;
+    padding: 0;
+  }
+  .features-image img {
+    width: 100%;
+    height: auto;
+  }
+  .features-image {
+    width: 270px;
+  }
+  .experience {
+    top: 290px;
+    left: 18px;
+  }
+  .feature-list > div {
+    width: 280px;
+  }
+
+  .product-features {
+    margin-bottom: -400px;
+  }
+  .fact-items {
+    margin: 0;
+    flex-direction: column;
+  }
+  .facts-head {
+    margin: 0;
+  }
+  .facts-head p {
+    margin-bottom: 20px;
+    width: 100px;
+  }
+}
+
+.hide {
+  display: none;
 }
